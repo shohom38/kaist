@@ -13,3 +13,250 @@
     background: url('../img/header/header-mid.png') left 0 repeat-x;
     font-size: 12px;
 }
+
+.input-left {
+    background: url('../img/search-area/input-left.png') left center no-repeat;
+    padding-left: 3px;
+}
+
+.input-right {
+    background: url('../img/search-area/input-right.png') right center no-repeat;
+    padding-right: 3px;
+}
+
+.input-mid {
+    background: url('../img/search-area/input-mid.png') left center repeat-x;
+}
+
+.ht-28 {
+    height: 28px;
+}
+
+.border-bottom-double {
+    background: url('../img/contents/border-double.png') left bottom repeat-x;
+    padding-bottom: 6px;
+}
+
+.contents-wrap-3 {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    right: 18px;
+    padding-left: 16px;
+    padding-bottom: 5px;
+}
+
+.contents-wrap-3 > a {
+    color: #787878;
+    background: url('../img/contents/arrow-right-2.png') right center no-repeat;
+    padding-right: 8px;
+}
+
+.book-flow-wrap {
+    display: flex;
+    justify-content: center;
+    background: url('../img/contents/shlvs.png') center bottom no-repeat;
+    margin-top: 12px;
+    margin-bottom: 27px;
+    padding-bottom: 26px;
+}
+
+.book-wrap + .book-wrap {
+    margin-left: 11px;
+}
+
+.book-wrap {
+    position: relative;
+}
+
+.txt-wrap {
+    display: inline-block;
+    position: absolute;
+    top: 105px;
+    left: 0;
+    font-size: 0;
+    width: 63px;
+    text-align: center;
+}
+
+.txt-wrap > a {
+    font-size: 11px;
+    color: #6d6d6d;
+}
+
+#footer-wrap {
+    margin: 0 10px;
+    padding-top: 15px;
+    padding-bottom: 121px;
+    text-align: center;
+    background: url('../img/contents/border-double.png') left top repeat-x;
+}
+
+.footer-button-wrap {
+    margin-bottom: 2px;
+}
+
+#footer-wrap > .footer-button-wrap > button {
+    font-size: 11px;
+}
+
+#footer-wrap > .footer-button-wrap > button + button {
+    margin-left: 5px;
+}
+
+.d-ib {
+    display: inline-block;
+    height: 25px;
+}
+
+.btn-left-footer {
+    background: url('../img/contents/footer-btn-left.png') left center no-repeat;
+    padding-left: 3px;
+}
+
+.btn-right-footer {
+    background: url('../img/contents/footer-right-btn.png') right center no-repeat;
+    padding-right: 3px;
+}
+
+.btn-mid-footer {
+    background: url('../img/contents/footer-mid-btn.png') left center repeat-x;
+    padding: 0 5px 0 5px;
+    line-height: 25px;
+    color: #616161;
+}
+
+.tab-blue-wrap {
+    height: 30px;
+    margin-right: 1px;
+}
+
+.tab-blue-left {
+    background: url('../img/tab-cont/tab-blue-left.png') left center no-repeat;
+    height: 30px;
+    padding-left: 4px;
+}
+
+.tab-blue-right {
+    background: url('../img/tab-cont/tab-blue-right.png') right center no-repeat;
+    height: 30px;
+    padding-right: 4px;
+}
+
+.tab-blue-mid {
+    background: url('../img/tab-cont/tab-blue-mid.png') left center repeat-x;
+    height: 30px;
+    padding: 0 9px 0 8px;
+    line-height: 30px;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.tab-blue-mid > h3 {
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.tab-bd-mid > h3 {
+    color: #585858;
+    font-weight: normal;
+}
+
+.tab-bd-wrap {
+    height: 30px;
+}
+
+.tab-bd-left {
+    background: url('../img/tab-cont/tab-bd-left.png') left center no-repeat;
+    padding-left: 4px;
+    height: 30px;
+}
+
+.tab-bd-right {
+    background: url('../img/tab-cont/tab-bd-right.png') right center no-repeat;
+    padding-right: 4px;
+    height: 30px;
+}
+
+.tab-bd-mid {
+    background: url('../img/tab-cont/tab-bd-mid.png') left center repeat-x;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 8px;
+    vertical-align: middle;
+}
+
+.chart-list-wrap {
+    margin: 10px 3px 0 3px;
+}
+
+.chart-list-title {
+    height: 35px;
+    position: relative;
+    background: url('../img/tab-cont/chart-title-bg.png') left center repeat-x;
+}
+
+.chart-list-title > h3 {
+    color: #ffffff;
+    font-size: 15px;
+    display: inline-block;
+    line-height: 35px;
+    font-weight: bold;
+    padding-left: 11px;
+}
+
+.chart-list-title > span {
+    color: #01346c;
+    font-size: 11px;
+    line-height: 35px;
+}
+
+.chart-list-title > a {
+    font-size: 11px;
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    color: #ffffff;
+    font-family: 'dotum';
+    background: url('../img/tab-cont/mini-arrow.png') right center no-repeat;
+    padding-right: 8px;
+}
+
+.chart-list-cont > ul > li {
+    min-height: 56px;
+    background: url('../img/tab-cont/chart-list-bg.png') left center repeat-x;
+}
+
+.chart-list-cont > ul > li:last-child {
+    min-height: 73px;
+    background: url('../img/tab-cont/chart-list-bg-2.png') left center repeat-x;
+}
+
+.chart-list-cont > ul > li > a {
+    display: block;
+    line-height: 56px;
+    padding-left: 10px;
+    position: relative;
+}
+
+#lh-73 {
+    line-height: 73px;
+}
+
+.t-21 {
+    top: 21px;
+}
+
+.t-23 {
+    top: 23px;
+}
+
+.big-arrow {
+    position: absolute;
+    right: 8px;
+}
+
+.chart-list-cont > ul > li > a > img {
+    vertical-align: middle;
+} 
