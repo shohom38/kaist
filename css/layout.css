@@ -1,0 +1,114 @@
+body {
+    background: url('../img/top/top-bg.png') left top repeat-x;
+    position: relative;
+    min-width: 320px;
+}
+
+button {
+    border: 0;
+    outline: 0;
+    padding: 0;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.top {
+    text-align: center;
+    font-size: 0;
+}
+
+.top > div {
+    display: inline-block;
+}
+
+.right-side {
+    position: absolute;
+    right: 3px;
+}
+
+.mid-side {
+    text-align: center;
+}
+
+.left-side {
+    position: absolute;
+    left: 4px;
+}
+
+.right-side > img:nth-child(2) {
+    margin-left: 7px;
+    margin-right: 3px;
+}
+
+.left-side > img:nth-child(2) {
+    margin-left: 3px;
+    margin-right: 8px;
+}
+
+.ht-34 {
+    height: 34px;
+}
+
+h1 {
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    font-size: 16px;
+    width: 50px;
+    height: 34px;
+    line-height: 34px;
+    overflow: hidden;
+}
+
+h1 > a {
+    display: block;
+    background: url('../img/header/kaist-logo.png') 0 0 no-repeat;
+    padding-top: 34px;
+}
+
+h2 {
+    line-height: 34px;
+}
+
+h2 > img {
+    vertical-align: middle;
+}
+
+.btn-box-header {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    font-size: 0;
+}
+
+.search-input-wrap {
+    font-size: 0;
+    padding: 0 10px;
+}
+
+.search-input-wrap > input,
+.search-input-wrap > button {
+    vertical-align: middle;
+}
+
+.search-input-wrap > button {
+    font-size: 0;
+}
+
+.search-input-wrap > p {
+    font-size: 11px;
+}
+
+.input-box-wrap {
+    display: inline-block;
+    width: 91%;
+    height: 24px;
+    vertical-align: middle;
+    border: 2px solid #0a3f9b;
+}
+
+.input-box-wrap > input {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}

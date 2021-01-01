@@ -1,0 +1,15 @@
+.header-left {
+    background: url('../img/header/header-leftside.png') left center no-repeat;
+    padding-left: 94px;
+    position: relative;
+}
+
+.header-right {
+    background: url('../img/header/header-right.png') right center no-repeat;
+    padding-right: 123px;
+}
+
+.header-mid {
+    background: url('../img/header/header-mid.png') left 0 repeat-x;
+    font-size: 12px;
+}
