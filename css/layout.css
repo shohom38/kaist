@@ -298,10 +298,36 @@ h2 > img {
 }
 
 .chart-wrap {
-    text-align: center;
     background: url('../img/tab-cont/tab-line.png') left top repeat-x;
     padding-top: 6px;
     margin: 0 10px;
+    position: relative;
+}
+
+.pb-115 {
+    padding-bottom: 115px;
+}
+
+.refine-title {
+    height: 42px;
+    background: url('../img/tab-cont/title-oc-left.png') left center no-repeat;
+    padding-left: 3px;
+}
+
+.refine-title-right {
+    height: 42px;
+    background: url('../img/tab-cont/title-oc-right.png') right center no-repeat;
+    padding-right: 3px;
+}
+
+.refine-title-mid {
+    height: 42px;
+    background: url('../img/tab-cont/title-oc-mid.png') left center repeat-x;
+    line-height: 34px;
+    padding-left: 8px;
+    font-size: 14px;
+    color: #232323;
+    vertical-align: middle;
 }
 
 .chart-wrap > ul > li {
@@ -319,4 +345,57 @@ h2 > img {
     content: "";
     display: block;
     clear: both;
+}
+
+.chart-wrap > table {
+    width: 100%;
+}
+
+.chart-wrap > table > thead > tr > th {
+    font-size: 14px;
+    padding: 7px 0;
+    padding-left: 13px;
+}
+
+.chart-wrap > table > tbody > tr > td {
+    font-size: 12px;
+    padding: 3px 0;
+}
+
+.chart-wrap > table > thead > tr > th:first-child {
+    text-align: left;
+    padding-left: 13px;
+}
+
+.chart-wrap > table > tbody > tr > td:first-child {
+    padding-left: 13px;
+}
+
+.chart-wrap > table > tbody > tr > td:nth-child(2) {
+    text-align: center;
+}
+
+#footer-wrapper {
+    padding-top: 41px;
+}
+
+caption {
+    display: none;
+}
+
+.search-btn-wrap {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.ph-box-wrap {
+    margin-top: 15px;
+}
+
+.ph-box-wrap > p {
+    text-align: center;
+}
+
+.tcont-wrapper {
+    background: linear-gradient(#ffffff, #ededed) no-repeat;
 }
