@@ -128,27 +128,27 @@
 }
 
 .tab-blue-wrap {
-    height: 30px;
+    height: 28px;
     margin-right: 1px;
 }
 
 .tab-blue-left {
-    background: url('../img/tab-cont/tab-blue-left.png') left center no-repeat;
-    height: 30px;
+    background: url('../img/tab-cont/tab-bl-left.png') left center no-repeat;
+    height: 28px;
     padding-left: 4px;
 }
 
 .tab-blue-right {
-    background: url('../img/tab-cont/tab-blue-right.png') right center no-repeat;
-    height: 30px;
+    background: url('../img/tab-cont/tab-bl-right.png') right center no-repeat;
+    height: 28px;
     padding-right: 4px;
 }
 
 .tab-blue-mid {
-    background: url('../img/tab-cont/tab-blue-mid.png') left center repeat-x;
-    height: 30px;
+    background: url('../img/tab-cont/tab-bl-mid.png') left center repeat-x;
+    height: 28px;
     padding: 0 9px 0 8px;
-    line-height: 30px;
+    line-height: 28px;
     font-size: 13px;
     vertical-align: middle;
 }
@@ -164,26 +164,26 @@
 }
 
 .tab-bd-wrap {
-    height: 30px;
+    height: 28px;
 }
 
 .tab-bd-left {
-    background: url('../img/tab-cont/tab-bd-left.png') left center no-repeat;
+    background: url('../img/tab-cont/tab-bdr-left.png') left center no-repeat;
     padding-left: 4px;
-    height: 30px;
+    height: 28px;
 }
 
 .tab-bd-right {
-    background: url('../img/tab-cont/tab-bd-right.png') right center no-repeat;
+    background: url('../img/tab-cont/tab-bdr-right.png') right center no-repeat;
     padding-right: 4px;
-    height: 30px;
+    height: 28px;
 }
 
 .tab-bd-mid {
-    background: url('../img/tab-cont/tab-bd-mid.png') left center repeat-x;
+    background: url('../img/tab-cont/tab-bdr-mid.png') left center repeat-x;
     font-size: 13px;
-    height: 30px;
-    line-height: 30px;
+    height: 28px;
+    line-height: 28px;
     padding: 0 8px;
     vertical-align: middle;
 }

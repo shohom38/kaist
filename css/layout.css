@@ -300,7 +300,7 @@ h2 > img {
 .chart-wrap {
     text-align: center;
     background: url('../img/tab-cont/tab-line.png') left top repeat-x;
-    padding-top: 4px;
+    padding-top: 6px;
     margin: 0 10px;
 }
 
