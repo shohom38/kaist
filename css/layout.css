@@ -385,7 +385,7 @@ caption {
 
 .search-btn-wrap {
     text-align: center;
-    margin-top: 16px;
+    padding-top: 16px;
 }
 
 .ph-box-wrap {
@@ -398,4 +398,9 @@ caption {
 
 .tcont-wrapper {
     background: linear-gradient(#ffffff, #ededed) no-repeat;
+}
+
+.input-wh-wrap {
+    height: 29px;
+    padding: 0 70px 0 86px;
 }

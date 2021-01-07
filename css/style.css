@@ -280,7 +280,8 @@
 .input-button-wrap {
     font-size: 0;
     display: inline-block;
-    position: relative;
+    position: absolute;
+    top: 0;
     left: 0;
 }
 
@@ -288,6 +289,7 @@
     font-size: 0;
     display: inline-block;
     position: absolute;
+    top: 0;
     right: 0;
 }
 
@@ -321,16 +323,11 @@
 }
 
 .only-input-wrap {
-    display: inline-block;
-    min-width: 133px;
     height: 29px;
     line-height: 29px;
     background: url('../img/tab-cont/input-left.png') left center no-repeat;
     padding-left: 3px;
     vertical-align: top;
-    position: absolute;
-    left: 86px;
-    right: 70px;
 }
 
 .input-wrapper {
