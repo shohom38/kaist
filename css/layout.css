@@ -137,13 +137,18 @@ h2 > img {
     left: 10px;
 }
 
-.input-mid > input {
+.input-box-wrap > input {
     width: 100%;
     height: 100%;
     border: 0;
     outline: 0;
     box-sizing: border-box;
-    background-color: transparent;
+    border-radius: 3px;
+    border: 2px solid #0a3f9b;
+}
+
+.input-box-wrap > input:focus {
+    border: 2px solid orange;
 }
 
 .cont-wrapper {
@@ -355,11 +360,12 @@ h2 > img {
     font-size: 14px;
     padding: 7px 0;
     padding-left: 13px;
+    text-align: left;
 }
 
 .chart-wrap > table > tbody > tr > td {
     font-size: 12px;
-    padding: 3px 0;
+    padding: 3px 0 3px 13px;
 }
 
 .chart-wrap > table > thead > tr > th:first-child {
@@ -372,7 +378,7 @@ h2 > img {
 }
 
 .chart-wrap > table > tbody > tr > td:nth-child(2) {
-    text-align: center;
+    text-align: left;
 }
 
 #footer-wrapper {
@@ -384,16 +390,24 @@ caption {
 }
 
 .search-btn-wrap {
-    text-align: center;
+    text-align: left;
     padding-top: 16px;
 }
 
 .ph-box-wrap {
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
     margin-top: 15px;
+    padding: 8px 6px;
+    background-color: #fff;
 }
 
 .ph-box-wrap > p {
-    text-align: center;
+    text-align: left;
+    font-size: 12px;
+    padding: 11px;
+    color: #636363;
+    background: linear-gradient(#ffffff, #f4f4f4);
 }
 
 .tcont-wrapper {
@@ -403,4 +417,8 @@ caption {
 .input-wh-wrap {
     height: 29px;
     padding: 0 70px 0 86px;
+}
+
+input:focus .input-left {
+    background: url('../img/search-area/input-focus-left.png') left center no-repeat;
 }
