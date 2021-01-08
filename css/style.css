@@ -53,12 +53,30 @@
 }
 
 .book-flow-wrap {
-    display: flex;
-    justify-content: center;
-    background: url('../img/contents/shlvs.png') center bottom no-repeat;
     margin-top: 12px;
-    margin-bottom: 30px;
-    padding-bottom: 23px;
+    font-size: 0;
+    position: relative;
+}
+
+.shlv-left {
+    position: absolute;
+    background: url('../img/contents/shlv-left.png') left 0 no-repeat;
+    padding-left: 22px;
+    top: 85px;
+    left: 0;
+    right: 0;
+}
+
+.shlv-right {
+    background: url('../img/contents/shlv-right.png') right 0 no-repeat;
+    padding-right: 22px;
+    height: 26px;
+}
+
+.shlv-mid {
+    background: url('../img/contents/shlv-mid.png') center 0 repeat-x;
+    height: 26px;
+    min-width: 246px;
 }
 
 .book-wrap + .book-wrap {
@@ -67,13 +85,17 @@
 
 .book-wrap {
     position: relative;
+    display: inline-block;
+}
+
+.book-wrap > a {
+    display: block;
+    height: 84px;
 }
 
 .txt-wrap {
     display: inline-block;
-    position: absolute;
-    top: 101px;
-    left: -3px;
+    padding-top: 16px;
     font-size: 0;
     width: 63px;
     text-align: center;
@@ -366,4 +388,33 @@
     font-family: 'dotum';
     vertical-align: middle;
     background-color: transparent;
+}
+
+.paging > .paging-circle:nth-child(1) > a,
+.paging > .paging-circle:nth-child(3) > a,
+.paging > .paging-circle:nth-child(4) > a {
+    display: block;
+    background: url('../img/contents/paging-1.png') 0 0 no-repeat;
+    padding-top: 9px;
+}
+
+.paging > .paging-circle:nth-child(2) > a {
+    display: block;
+    background: url('../img/contents/paging-2.png') 0 0 no-repeat;
+    padding-top: 11px;
+    width: 10px;
+}
+
+.paging-circle:nth-child(2) {
+    width: 10px;
+}
+
+.paging-circle {
+    float: left;
+    width: 7px;
+    overflow: hidden;
+}
+
+.paging-circle + .paging-circle {
+    margin-left: 5px;
 }
