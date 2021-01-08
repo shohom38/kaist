@@ -389,3 +389,32 @@
     vertical-align: middle;
     background-color: transparent;
 }
+
+.paging > .paging-circle:nth-child(1) > a,
+.paging > .paging-circle:nth-child(3) > a,
+.paging > .paging-circle:nth-child(4) > a {
+    display: block;
+    background: url('../img/contents/paging-1.png') 0 0 no-repeat;
+    padding-top: 9px;
+}
+
+.paging > .paging-circle:nth-child(2) > a {
+    display: block;
+    background: url('../img/contents/paging-2.png') 0 0 no-repeat;
+    padding-top: 11px;
+    width: 10px;
+}
+
+.paging-circle:nth-child(2) {
+    width: 10px;
+}
+
+.paging-circle {
+    float: left;
+    width: 7px;
+    overflow: hidden;
+}
+
+.paging-circle + .paging-circle {
+    margin-left: 5px;
+}
