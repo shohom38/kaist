@@ -150,7 +150,7 @@ h2 > img {
 }
 
 .cont-wrapper {
-    padding: 16px 10px 0 10px;
+    padding: 16px 15px 0 15px;
     position: relative;
     background: linear-gradient(#ffffff, #ededed) no-repeat;
 }
@@ -213,32 +213,65 @@ h2 > img {
 
 .img-btn-wrap {
     margin: 0 auto;
-    padding: 16px 5px 8px 5px;
+    padding: 16px 7px 6px 7px;
 }
 
 .img-box-clear {
     font-size: 0;
-    padding-left: 12px;
 }
 
 .img-wrap {
     display: inline-block;
     width: 65px;
-    height: 75px;
     text-align: center;
     font-size: 0;
+    margin-right: 3px;
+    margin-bottom: 15px;
 }
 
 .img-wrap > a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
     color: #6b6b6b;
+    padding-top: 63px;
+    font-size: 11px;
+}
+
+.notice {
+    background: url('../img/contents/notice-img.png') center top no-repeat;
+}
+
+.inf-lbry {
+    background: url('../img/contents/library-img.png') center top no-repeat;
+}
+
+.reservation {
+    background: url('../img/contents/date-img.png') center top no-repeat;
+}
+
+.my-lbry {
+    background: url('../img/contents/library-2-img.png') center top no-repeat;
+}
+
+.pbook {
+    background: url('../img/contents/pbook-img.png') center top no-repeat;
+}
+
+.jn {
+    background: url('../img/contents/jn-img.png') center top no-repeat;
+}
+
+.data {
+    background: url('../img/contents/data.png') center top no-repeat;
+}
+
+.buy-book {
+    background: url('../img/contents/buybk-img.png') center top no-repeat;
 }
 
 .img-wrap > a:nth-child(2) {
     font-size: 11px;
-}
-
-.img-wrap > a:first-child {
-    display: block;
 }
 
 .border-bottom-double::after {
@@ -250,6 +283,7 @@ h2 > img {
 .paging-wrap {
     text-align: center;
     position: relative;
+    margin-top: 15px;
     padding-bottom: 9px;
 }
 
@@ -401,7 +435,7 @@ caption {
 }
 
 .tcont-wrapper {
-    background: linear-gradient(#ffffff, #ededed) no-repeat;
+    background: linear-gradient(#ffffff, #e7e7e7 , #ededed) no-repeat;
 }
 
 .input-wh-wrap {
