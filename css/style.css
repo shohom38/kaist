@@ -175,18 +175,19 @@
     vertical-align: middle;
 }
 
-.tab-blue-mid > h3 {
+.tab-blue-mid > span {
     color: #ffffff;
     font-weight: normal;
 }
 
-.tab-bd-mid > h3 > a {
+.tab-bd-mid > span {
     color: #585858;
     font-weight: normal;
 }
 
 .tab-bd-wrap {
     height: 28px;
+    cursor: pointer;
 }
 
 .tab-bd-left {
@@ -248,7 +249,8 @@
     font-size: 11px;
     position: absolute;
     right: 7px;
-    top: 12px;
+    top: 0;
+    line-height: 35px;
     color: #ffffff;
     font-family: 'dotum';
     background: url('../img/tab-cont/mini-arrow.png') right center no-repeat;
@@ -270,6 +272,7 @@
     height: 56px;
     padding-left: 7px;
     position: relative;
+    background: url('../img/tab-cont/big-arrow.png') 296px center no-repeat;
 }
 
 .chart-list-cont > ul > li > a > p {
@@ -283,7 +286,8 @@
     color: #807f7f;
 }
 
-#lh-73 {
+.chart-list-cont > ul > li:last-child > a {
+    height: 73px;
     padding-right: 36px;
 }
 
