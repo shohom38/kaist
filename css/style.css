@@ -65,18 +65,18 @@
     top: 85px;
     left: 0;
     right: 0;
+    box-shadow: 0 12px 13px 2.5px #cecece;
 }
 
 .shlv-right {
     background: url('../img/contents/shlv-right.png') right 0 no-repeat;
     padding-right: 22px;
-    height: 26px;
+    height: 10px;
 }
 
 .shlv-mid {
     background: url('../img/contents/shlv-mid.png') center 0 repeat-x;
-    height: 26px;
-    min-width: 246px;
+    height: 10px;
 }
 
 .book-wrap + .book-wrap {
@@ -109,8 +109,11 @@
 .footer-wrap {
     margin: 0 10px;
     padding-top: 12px;
-    padding-bottom: 121px;
+    padding-bottom: 12px;
     text-align: center;
+}
+
+.footer-underl {
     background: url('../img/contents/border-double.png') left top repeat-x;
 }
 
