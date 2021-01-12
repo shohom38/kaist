@@ -203,6 +203,7 @@ h2 > img {
 .contents-wrap-1 > a {
     font-size: 11px;
     position: absolute;
+    top: 16px;
     right: 111px;
     padding-right: 8px;
     color: #35577c;
