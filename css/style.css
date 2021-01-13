@@ -262,12 +262,12 @@
 
 .chart-list-cont > ul > li {
     min-height: 56px;
-    background: url('../img/tab-cont/chart-list-bg.png') left center repeat-x;
+    background: url('../img/contents/big-arrow-right.png') right center no-repeat, url('../img/tab-cont/chart-list-bg.png') left center repeat-x;
 }
 
 .chart-list-cont > ul > li:last-child {
     min-height: 73px;
-    background: url('../img/tab-cont/chart-list-bg-2.png') left center repeat-x;
+    background: url('../img/contents/big-arrow-right.png') right center no-repeat, url('../img/tab-cont/chart-list-bg-2.png') left center repeat-x;
 }
 
 .chart-list-cont > ul > li > a {
@@ -275,7 +275,6 @@
     height: 56px;
     padding-left: 7px;
     position: relative;
-    background: url('../img/tab-cont/big-arrow.png') 296px center no-repeat;
 }
 
 .chart-list-cont > ul > li > a > p {

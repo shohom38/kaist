@@ -448,6 +448,8 @@ caption {
     font-size: 12px;
     padding: 11px;
     color: #636363;
+    word-break: keep-all;
+    word-wrap: break-word;
     background: linear-gradient(#ffffff, #f4f4f4);
 }
 
