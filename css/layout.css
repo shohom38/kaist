@@ -235,6 +235,7 @@ h2 > img {
     color: #6b6b6b;
     padding-top: 63px;
     font-size: 11px;
+    word-break: keep-all;
 }
 
 .notice {
